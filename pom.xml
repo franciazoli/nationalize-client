@@ -8,9 +8,9 @@
     <description>Java class library to estimate the nationality of a person based on a last name.</description>
     <developers>
         <developer>
-            <id><!-- YOUR ID --></id>
-            <name><!-- YOUR NAME --></name>
-            <email><!-- YOUR EMAIL ADDRESS --></email>
+            <id>YUTDI1</id>
+            <name>Francia Zoltán</name>
+            <email>zoli.francia@gmail.com</email>
             <organization>Faculty of Informatics, University of Debrecen</organization>
             <organizationUrl>https://www.inf.unideb.hu/</organizationUrl>
         </developer>
@@ -26,6 +26,12 @@
             <groupId>io.github.openfeign</groupId>
             <artifactId>feign-gson</artifactId>
             <version>13.2.1</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>3.14.0</version>
             <scope>compile</scope>
         </dependency>
     </dependencies>
